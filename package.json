@@ -1,0 +1,16 @@
+{
+  "name": "hanekawa",
+  "version": "0.0.12",
+  "private": true,
+  "description": "purressure",
+  "author": "vvesperr",
+  "dependencies": {
+    "metalsmith": "^2.3.0",
+    "metalsmith-markdown": "^0.2.1"
+  },
+  "main": "build.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node ."
+  }
+}
